@@ -1,11 +1,13 @@
-Work done on yesterday:
+# Standup Notes:
+
+### Work done on yesterday:
 
 
 
-Tasks of today:
+### Tasks of today:
 
 
 
-Difficulties faced so far:
+### Difficulties faced so far:
 
 
