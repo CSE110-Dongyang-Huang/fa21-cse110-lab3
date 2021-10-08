@@ -1,9 +1,4 @@
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: red;
-    }
-}
-
+/* Set font */
 @font-face {
     font-family: "font";
     src: url("Ephesis-Regular.ttf");
@@ -13,10 +8,7 @@
     font-family: "font";
 }
 
-p.mention {
-    background-color: yellow;
-}
-
+/* Combinators */
 a[href$="https://ucsd.edu/"] {
     color: red;
   }
@@ -45,6 +37,7 @@ p.unfinished {
     background-color: yellow;
 }
 
+/* Font size, unit, color, box model */
 .attendance {
     font-size: 2em;
     color: rgb(100, 100, 100);
@@ -62,6 +55,7 @@ p.unfinished {
     border-radius: 10px;
 }
 
+/* Font size, unit, color, box model */
 .agenda {
     font-size: 2ex;
     color: #FF6347;
@@ -70,6 +64,7 @@ p.unfinished {
     
 }
 
+/* Font size, unit, color, display, box model */  
 .unfinished {
     font-size: 2ch;
     margin: auto;
@@ -78,6 +73,7 @@ p.unfinished {
     color: hsl(252, 100%, 50%);
 }
 
+/* unit, color, display, box model, active class */
 .comments:active {
     width: 100cm;
     display: inline-block;
@@ -88,18 +84,22 @@ p.unfinished {
     color: red;
 }
 
+/* units */
 .audio {
     width: 100mm;
 }
 
+/* units */
 .video {
     width: 10in;
 }
 
+/* Combinators */
 .audio, .video {
     background-color: green;
 }
 
+/* text */
 #text {
     color: red;
     text-decoration: underline;
@@ -107,15 +107,28 @@ p.unfinished {
     display:grid;
 }
 
+/* display */
 #msg2 {
     display: flexbox;
 }
 
+/* position */
 .form {
     position: static;
 }
 
+/* hover class */
 button:hover {
     color: blue;
 }
 
+p.mention {
+    background-color: yellow;
+}
+
+/* Set media screen width */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: red;
+    }
+}
