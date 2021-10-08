@@ -1,0 +1,121 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: red;
+    }
+}
+
+@font-face {
+    font-family: "font";
+    src: url("Ephesis-Regular.ttf");
+}
+
+* {
+    font-family: "font";
+}
+
+p.mention {
+    background-color: yellow;
+}
+
+a[href$="https://ucsd.edu/"] {
+    color: red;
+  }
+
+body {
+    background-color: powderblue;
+  }
+
+main header {
+    margin: 10px 10px 10px 10px;
+}
+
+main > header {
+    padding: 10px 10px 10px 10px;
+}
+
+main ~ footer {
+    margin: 10px 10px 10px 10px;
+}
+
+li:first-of-type + li {
+    color: red;
+}
+
+p.unfinished {
+    background-color: yellow;
+}
+
+.attendance {
+    font-size: 2em;
+    color: rgb(100, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.agenda {
+    font-size: 2ex;
+    color: #FF6347;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.unfinished {
+    font-size: 2ch;
+    margin: auto;
+    display: block;
+    position: relative;
+    color: hsl(252, 100%, 50%);
+}
+
+.comments:active {
+    width: 100cm;
+    display: inline-block;
+    height: 20px;
+    width: 50px;
+    max-width: 20px;
+    min-width: 10px;
+    color: red;
+}
+
+.audio {
+    width: 100mm;
+}
+
+.video {
+    width: 10in;
+}
+
+.audio, .video {
+    background-color: green;
+}
+
+#text {
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    display:grid;
+}
+
+#msg2 {
+    display: flexbox;
+}
+
+.form {
+    position: static;
+}
+
+button:hover {
+    color: blue;
+}
+
